@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Data files (track scripts, ignore large binaries)
+*.parquet
+data/*.parquet
+data/*.csv
+
+# debugging and audit files
+01c_step1_audit.py
+
+03b_audit2.py
+
+check_data.py
+
+debug_tsla_pipeline.py
+
+diagnose_step2_drop.py
+
+fix_tsla_prices.py
+
+verify_tsla_dropped_dates.py
