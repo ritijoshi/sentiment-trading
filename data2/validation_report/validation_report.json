@@ -1,0 +1,139 @@
+{
+    "checks": {
+        "news_with_returns.csv": {
+            "rows": 40856,
+            "columns": [
+                "date",
+                "title",
+                "news",
+                "url",
+                "source",
+                "symbol",
+                "matched_names",
+                "entry_date",
+                "exit_date",
+                "entry_price",
+                "exit_price",
+                "stock_return_3d",
+                "market_return_3d",
+                "excess_return_3d",
+                "label"
+            ],
+            "missing_values": {}
+        },
+        "final_dataset_missing_values": {
+            "date": 0,
+            "title": 0,
+            "news": 0,
+            "symbol": 0,
+            "stock_return_3d": 0,
+            "market_return_3d": 0,
+            "excess_return_3d": 0,
+            "label": 0
+        },
+        "final_dataset_quality": {
+            "invalid_dates": 0,
+            "rows_with_nonfinite_returns": 0,
+            "invalid_labels": 0,
+            "duplicate_article_stock_rows": 0,
+            "duplicate_url_rows": 7756,
+            "label_distribution": {
+                "0": 20504,
+                "1": 20352
+            },
+            "date_min": "2020-01-01",
+            "date_max": "2026-03-17"
+        },
+        "train.csv": {
+            "rows": 26147,
+            "columns": [
+                "date",
+                "title",
+                "news",
+                "url",
+                "source",
+                "symbol",
+                "matched_names",
+                "entry_date",
+                "exit_date",
+                "entry_price",
+                "exit_price",
+                "stock_return_3d",
+                "market_return_3d",
+                "excess_return_3d",
+                "label"
+            ],
+            "missing_values": {},
+            "label_distribution": {
+                "0": 50.19,
+                "1": 49.81
+            }
+        },
+        "validation.csv": {
+            "rows": 6537,
+            "columns": [
+                "date",
+                "title",
+                "news",
+                "url",
+                "source",
+                "symbol",
+                "matched_names",
+                "entry_date",
+                "exit_date",
+                "entry_price",
+                "exit_price",
+                "stock_return_3d",
+                "market_return_3d",
+                "excess_return_3d",
+                "label"
+            ],
+            "missing_values": {},
+            "label_distribution": {
+                "0": 50.19,
+                "1": 49.81
+            }
+        },
+        "test.csv": {
+            "rows": 8172,
+            "columns": [
+                "date",
+                "title",
+                "news",
+                "url",
+                "source",
+                "symbol",
+                "matched_names",
+                "entry_date",
+                "exit_date",
+                "entry_price",
+                "exit_price",
+                "stock_return_3d",
+                "market_return_3d",
+                "excess_return_3d",
+                "label"
+            ],
+            "missing_values": {},
+            "label_distribution": {
+                "0": 50.18,
+                "1": 49.82
+            }
+        },
+        "split_validation": {
+            "total_split_rows": 40856,
+            "original_rows": 40856,
+            "split_sizes": {
+                "train.csv": 26147,
+                "validation.csv": 6537,
+                "test.csv": 8172
+            }
+        },
+        "split_pair_overlap": {
+            "train.csv vs validation.csv": 0,
+            "train.csv vs test.csv": 0,
+            "validation.csv vs test.csv": 0
+        }
+    },
+    "warnings": [],
+    "errors": []
+}

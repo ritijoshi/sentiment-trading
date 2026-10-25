@@ -1,6 +1,26 @@
 # Python cache
 __pycache__/
 *.pyc
+.venv/
+venv/
+
+.env
+.env.*
+
+*.tmp
+*.log
+
+data2/*_raw.csv
+
+# Intermediate datasets
+data2/combined_news.csv
+data2/matched_news.csv
+data2/manual_match_review.csv
+data2/news_with_returns.csv
+data2/nifty50_ticker.csv
+data2/train.csv
+data2/validation.csv
+data2/test.csv
 
 # Data files (track scripts, ignore large binaries)
 *.parquet
