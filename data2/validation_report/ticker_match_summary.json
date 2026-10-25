@@ -1,0 +1,12 @@
+{
+    "total_matched_rows":37641,
+    "rows_with_any_flag":14284,
+    "flag_counts":{
+        "empty_content_flag":0,
+        "company_not_found_in_title_flag":0,
+        "multi_stock_article_flag":12054,
+        "possible_roundup_flag":6656
+    },
+    "unique_symbols":48,
+    "output_file":"ticker_match_flags.csv"
+}
