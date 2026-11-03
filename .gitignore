@@ -47,3 +47,14 @@ data2/processed/*.parquet
 
 # Raw datasets
 data2/*_raw.csv
+# LLM extraction outputs and experimental data
+data2/processed/
+*.ipynb_checkpoints/
+
+# Model files
+*.safetensors
+*.gguf
+*.bin
+
+# Temporary outputs
+test_output.txt
