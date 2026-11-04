@@ -41,3 +41,20 @@ diagnose_step2_drop.py
 fix_tsla_prices.py
 
 verify_tsla_dropped_dates.py
+# Generated and processed datasets
+data2/processed/*.csv
+data2/processed/*.parquet
+
+# Raw datasets
+data2/*_raw.csv
+# LLM extraction outputs and experimental data
+data2/processed/
+*.ipynb_checkpoints/
+
+# Model files
+*.safetensors
+*.gguf
+*.bin
+
+# Temporary outputs
+test_output.txt
